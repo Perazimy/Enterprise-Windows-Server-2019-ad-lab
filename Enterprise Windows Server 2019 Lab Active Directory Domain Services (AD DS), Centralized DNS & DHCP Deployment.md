@@ -255,6 +255,6 @@ CN=Chukwubuzor E. Perazim,CN=Users,DC=corp,DC=local
 * **Engineer:** Chukwubuzor Perazim
 * **Specialization:** Network Security, Windows Server Infrastructure & Command and Control (C3) Systems
 * **Location:** Warri, Delta State, Nigeria
-* **LinkedIn:** [linkedin.com/in/ChukwubuzorPerazim](www.linkedin.com/in/chukwubuzor-perazim-590a5519a)
+* **LinkedIn:** [linkedin.com/in/ChukwubuzorPerazim](www.linkedin.com/in/chukwubuzor-perazim-590a5519a/)
 * **Email:** chukwubuzorperazim@gmail.com
-* **GitHub:** [github.com/ChukwubuzorPerazim]([https://github.com/ChukwubuzorPerazim](https://github.com/Perazimy))
+* **GitHub:** [github.com/ChukwubuzorPerazim](https://github.com/Perazimy)](https://github.com/Perazimy))
