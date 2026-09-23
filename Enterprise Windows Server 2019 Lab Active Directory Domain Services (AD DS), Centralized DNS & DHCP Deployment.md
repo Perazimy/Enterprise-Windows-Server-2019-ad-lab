@@ -153,7 +153,7 @@ OperatingSystem : Windows Server 2019 Standard Evaluation
 ### Test 2: Active Directory Users and Computers (ADUC) Hierarchy
 Inspected the Active Directory database partition (`corp.local`) via Microsoft Management Console (`dsa.msc`):
 
-![Active Directory Users and Computers Console](screenshots/02_ADUC_Console.png)
+![Active Directory Users and Computers Console](Screenshots/02_ADUC_Console.png.png)
 *Figure 2: Active Directory Users and Computers snap-in displaying the domain tree, built-in security containers, Computers, Domain Controllers, and Users partitions.*
 
 ---
@@ -170,12 +170,12 @@ IPAddress       ScopeId         ClientId            HostName                Addr
 192.168.10.50   192.168.10.0    08-00-27-4d-1d-9e   CORP-CLO1.corp.local    Active          10/1/2026 12:58:23 PM
 ```
 
-![DHCP Lease PowerShell Output](screenshots/03_DHCP_PowerShell_Lease.png)
+![DHCP Lease PowerShell Output](Screenshots/03_DHCP_PowerShell_Lease.png.png)
 *Figure 3: Active DHCP lease retrieved via PowerShell showing client IP 192.168.10.50, client MAC (08-00-27-4D-1D-9E), and hostname CORP-CLO1.corp.local.*
 
 **DHCP Management GUI Output:**
 
-![DHCP Management Console GUI](screenshots/04_DHCP_GUI_Lease.png)
+![DHCP Management Console GUI](Screenshots/04_DHCP_GUI_Lease.png.png)
 *Figure 4: DHCP Management Console showing active lease under Scope [192.168.10.0] > Address Leases.*
 
 ---
@@ -199,7 +199,7 @@ C:\Users\Administrator>whoami /fqdn
 CN=Administrator,CN=Users,DC=corp,DC=local
 ```
 
-![Domain Controller nltest and whoami Output](screenshots/05_DC_nltest_whoami.png)
+![Domain Controller nltest and whoami Output](Screenshots/05_DC_nltest_whoami.png.png)
 *Figure 5: Elevated command prompt on CORP-DC01 demonstrating successful DC locator query (nltest) and FQDN resolution.*
 
 ---
@@ -223,7 +223,7 @@ C:\Users\Perazim>whoami /fqdn
 CN=Chukwubuzor E. Perazim,CN=Users,DC=corp,DC=local
 ```
 
-![Client Workstation Verification](screenshots/06_Client_Domain_Joined_whoami.png)
+![Client Workstation Verification](Screenshots/06_Client_Domain_Joined_whoami.png.png)
 *Figure 6: Domain verification from client CORP-CLO1 confirming domain controller connectivity across the virtual switch, Kerberos ticket acquisition, and authenticated domain user context (CN=Chukwubuzor E. Perazim).*
 
 ---
@@ -255,6 +255,6 @@ CN=Chukwubuzor E. Perazim,CN=Users,DC=corp,DC=local
 * **Engineer:** Chukwubuzor Perazim
 * **Specialization:** Network Security, Windows Server Infrastructure & Command and Control (C3) Systems
 * **Location:** Warri, Delta State, Nigeria
-* **LinkedIn:** [linkedin.com/in/ChukwubuzorPerazim](https://www.linkedin.com/in/ChukwubuzorPerazim)
+* **LinkedIn:** [linkedin.com/in/ChukwubuzorPerazim](www.linkedin.com/in/chukwubuzor-perazim-590a5519a)
 * **Email:** chukwubuzorperazim@gmail.com
-* **GitHub:** [github.com/ChukwubuzorPerazim](https://github.com/ChukwubuzorPerazim)
+* **GitHub:** [github.com/ChukwubuzorPerazim]([https://github.com/ChukwubuzorPerazim](https://github.com/Perazimy))
