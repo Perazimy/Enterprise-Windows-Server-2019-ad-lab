@@ -145,7 +145,7 @@ IPv4Address     : 192.168.10.10
 OperatingSystem : Windows Server 2019 Standard Evaluation
 ```
 
-![Active Directory Domain Controller Health](screenshots/01_AD_DomainController_Health.png)
+Screenshots/01_AD_DomainController_Health.png.png
 *Figure 1: PowerShell query on CORP-DC01 validating domain controller identity, forest root, IPv4 binding, and Windows Server 2019 Standard Evaluation.*
 
 ---
