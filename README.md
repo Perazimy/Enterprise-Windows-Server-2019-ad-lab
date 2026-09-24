@@ -37,8 +37,8 @@ In corporate environments, centralized identity governance, authoritative name r
 |   |         Hostname: CORP-DC01        |   |        Hostname: CORP-CLO1     |   |
 |   |         IP: 192.168.10.10 (Static) |   |        IP: 192.168.10.50 (DHCP)|   |
 |   |         OS: Windows Server 2019    |   |        OS: Windows 10 Enterprise|  |
-|   |         Specs: 2GB RAM / 1 vCPU    |   |        Client MAC:             |   |
-|   |         VHD: 20 GB Dynamic         |   |        08-00-27-4D-1D-9E       |   |
+|   |         Specs: 3GB RAM / 1 vCPU    |   |        Client MAC:             |   |
+|   |         VHD: 30 GB Dynamic         |   |        08-00-27-4D-1D-9E       |   |
 |   |                                    |   |                                |   |
 |   |   [AD DS] Forest: corp.local       |   |   Member of: corp.local        |   |
 |   |   [DNS]   Authoritative + Fwders   |   |   Identity:                    |   |
@@ -56,8 +56,8 @@ In corporate environments, centralized identity governance, authoritative name r
 
 | Hostname | Role / Services | Operating System | IP Address | Subnet Mask | Default Gateway | Primary DNS | Hardware Specs |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **CORP-DC01** | Primary DC, AD DS, DNS, DHCP | Windows Server 2019 Standard | `192.168.10.10` (Static) | `255.255.255.0` | `192.168.10.1` | `127.0.0.1` (Loopback) | 2 GB RAM, 1 vCPU, 20 GB VHD |
-| **CORP-CLO1** | Corporate Workstation | Windows 10 Enterprise | Dynamic (`192.168.10.50`) | `255.255.255.0` | `192.168.10.1` | `192.168.10.10` | 2.5 GB RAM, 1 vCPU, 30 GB VHD |
+| **CORP-DC01** | Primary DC, AD DS, DNS, DHCP | Windows Server 2019 Standard | `192.168.10.10` (Static) | `255.255.255.0` | `192.168.10.1` | `127.0.0.1` (Loopback) | 3 GB RAM, 1 vCPU, 30 GB VHD |
+| **CORP-CLO1** | Corporate Workstation | Windows 10 Enterprise | Dynamic (`192.168.10.50`) | `255.255.255.0` | `192.168.10.1` | `192.168.10.10` | 2 GB RAM, 1 vCPU, 20 GB VHD |
 
 ---
 
@@ -68,7 +68,7 @@ In corporate environments, centralized identity governance, authoritative name r
 2. **Crucial Enterprise Step:** Disabled VirtualBox's internal DHCP engine to eliminate rogue DHCP conflicts and guarantee that `CORP-DC01` functions as the sole authoritative DHCP server.
 
 ### Phase 2: Windows Server 2019 Baselining (GUI)
-1. Provisioned `CORP-DC01` with 2 GB RAM, 1 vCPU, and a 20 GB dynamically allocated virtual hard disk.
+1. Provisioned `CORP-DC01` with 3 GB RAM, 1 vCPU, and a 30 GB dynamically allocated virtual hard disk.
 2. Installed Windows Server 2019 Standard (Desktop Experience).
 3. Assigned a static IPv4 address via Network Connections (`ncpa.cpl`):
    * IP Address: `192.168.10.10`
